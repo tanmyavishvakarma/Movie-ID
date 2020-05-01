@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".names_Activity"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".9"
+        android:background="@color/bgclr"
+        android:orientation="vertical"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/spin"
+            android:layout_width="234dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/startbtn"
+            android:text="spin" />
+
+        <TextView
+            android:id="@+id/fmname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mvname"
+            android:text="Press SPIN"
+            android:textAlignment="center"
+            android:textColor="#DD332B2B"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="70dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ta"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/startbtn"
+                android:text="Team A" />
+
+            <Button
+                android:id="@+id/tb"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/startbtn"
+                android:text="team b" />
+
+            <Button
+                android:id="@+id/scrs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:height="62dp"
+                android:background="@drawable/startbtn"
+                android:text="SHow scores" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

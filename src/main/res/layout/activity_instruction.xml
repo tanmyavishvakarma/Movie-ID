@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".instruction"
+    android:background="@drawable/background2"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/bgclr"
+        android:alpha=".9"
+
+
+    >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="400dp"
+            android:background="@drawable/startbtn"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="HOW TO PLAY \n\n Divide your friends into two teams. Each team will chose a representative to describe the movie to his team. This guy will change after every round. In each round the representative will chose number of words he will use to describe the movie. Whosoever chooses less words will be given the first chance to earn points but if for some reasons he is not able to make his team guess then the other team representative will be given the chance to earn points but he has to use the number of words used by the previous team used.If both team has same number of words then the team will less points will be given the chance."
+            android:textAlignment="center"
+
+
+            />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="70dp"
+            android:height="60dp"
+            android:background="@drawable/startbtn"
+            android:text="back" />
+    </LinearLayout>
+</RelativeLayout>
